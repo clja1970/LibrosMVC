@@ -12,14 +12,14 @@ public class Modelo
 	
 	public int tiradaProfesion()
 	{
-		return(aleatorioProfesion.nextInt(4));
+		return(aleatorioProfesion.nextInt(5));
 	}
 	public int tiradaAccion()
 	{
-		return(aleatorioAccion.nextInt(4));
+		return(aleatorioAccion.nextInt(5));
 	}
 	public int tiradaLugares()
 	{
-		return(aleatorioLugares.nextInt(4));
+		return(aleatorioLugares.nextInt(5));
 	}
 }
