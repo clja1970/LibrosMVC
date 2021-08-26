@@ -45,7 +45,7 @@ public class Vista
 		
 		ventana.setBackground(Color.green);
 		ventana.setSize(300, 220);
-		ventana.setResizable(true);
+		ventana.setResizable(false);
 		ventana.setLocationRelativeTo(null);
 		ventana.setVisible(true);
 	}
